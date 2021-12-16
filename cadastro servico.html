@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agendamento.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="botaohome" href="#">Home Page</a>
+        </nav>
+    </header>
+<div class="container">
+    <h1>Cadastro De Serviço</h1>
+    <form id="formcadastro" action="" method="">
+        <div class="metade-da-linha">
+            <label for="Name"><i class="fas fa-briefcase"></i>Serviços A Serem Prestados</label>
+            <input type="text" name=Name" id="Nome" placeholder="Nome do serviço a ser prestado" data-min-length="10" data-required>
+        </div>
+        <div class="metade-da-linha">
+            <label for="Name"><i class="fas fa-briefcase"></i>Expecificações do serviço</label>
+            <input type="text" name=Name" id="Nome" placeholder="Descrição do serviço a ser prestado" data-min-length="10" data-required>
+        </div>
+        <div class="linha-completa">
+            <label for="email"> <i class="fas fa-briefcase"></i></i>Insumos</label>
+            <input type="email" name="email" id="email" placeholder="Materiais para uso" data-min-lenght="33">
+    <div class="metade-da-linha">
+        <label for="Name"><i class="fas fa-briefcase"></i>Horarios Disponiveis</label>
+        <input type="text" name=Name" id="Nome" placeholder="Flexibilidade/disponibilidade de horario" data-min-length="10" data-required>
+    </div>
+    <div class="caixa-de-confirmacao"></div>
+    <input type="checkbox" name="confirmbox" id="confirmbox">
+    <label for="confirmbox" id="confirmlabel">Li e aceitos <a href="#"> termos de uso </a></label>
+    <div class="button">
+        <input type="submit" id="botao" value="Confirmar Agendamento">
+    </div>
+</div>
+</form>
+<p class="erro-de-validacao template"></p>
+</header>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="cadastro.js"></script>
+</body>
+</html>
