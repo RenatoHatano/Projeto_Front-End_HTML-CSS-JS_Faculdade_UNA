@@ -7,6 +7,7 @@ A proposta de projeto da disciplina envolve a criação de uma aplicação web/m
  O objetivo é que:
  
 • os profissionais possam cadastrar seus serviços e/ou possíveis insumos, sua agenda compartilhada com os horários e trabalhos já realizados (portfólio). 
+
 • os clientes possam realizar pesquisas e agendamentos.
 
  A estrutura lógica dos requisitos do projeto pode ser observada no figma pelo link abaixo: https://www.figma.com/file/27YUuAPwsnZK2mm4HMu0kA/Estrutura-Projeto-UC-Usabilidade
