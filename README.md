@@ -15,10 +15,15 @@ A proposta de projeto da disciplina envolve a criação de uma aplicação web/m
 Entrega 1
 
 1- figma de cada grupo contendo:
+
 2- front end: landing page
+
 3- front end: login (tanto para cliente/profissional)
+
 4- front end: cadastro
+
 5- home page cliente
+
 6- home page profissional
 
 Na landing, será avaliado:o uso de formas geométricas mais arredondadas, o conteúdo bem informado do que é o serviço (a landing serve é para explicar isso de forma resumida e ser atrativa), e os redirecionamentos para login e cadastro e também o contraste, se a aplicação web está legível.
